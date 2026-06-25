@@ -77,8 +77,8 @@ namespace RBX_Alt_Manager.Forms
             this.FPSCapLabel = new System.Windows.Forms.Label();
             this.MaxFPSValue = new System.Windows.Forms.NumericUpDown();
             this.OverrideWithCustomCB = new System.Windows.Forms.CheckBox();
-            this.CustomClientSettingsDialog = new System.Windows.Forms.OpenFileDialog();
             this.ForceUpdateButton = new System.Windows.Forms.Button();
+            this.CustomClientSettingsDialog = new System.Windows.Forms.OpenFileDialog();
             this.SettingsLayoutPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LaunchDelayNumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MaxRecentGamesNumber)).BeginInit();
@@ -129,6 +129,7 @@ namespace RBX_Alt_Manager.Forms
             this.AutoUpdateCB.TabIndex = 0;
             this.AutoUpdateCB.Text = "Check for Updates";
             this.AutoUpdateCB.UseVisualStyleBackColor = true;
+            this.AutoUpdateCB.Visible = false;
             this.AutoUpdateCB.CheckedChanged += new System.EventHandler(this.AutoUpdateCB_CheckedChanged);
             // 
             // AsyncJoinCB
@@ -703,12 +704,6 @@ namespace RBX_Alt_Manager.Forms
             this.OverrideWithCustomCB.UseVisualStyleBackColor = true;
             this.OverrideWithCustomCB.CheckedChanged += new System.EventHandler(this.OverrideWithCustomCB_CheckedChanged);
             // 
-            // CustomClientSettingsDialog
-            // 
-            this.CustomClientSettingsDialog.DefaultExt = "json";
-            this.CustomClientSettingsDialog.FileName = "ClientAppSettings.json";
-            this.CustomClientSettingsDialog.Filter = "Json Files|*.json|All Files|*.*";
-            // 
             // ForceUpdateButton
             // 
             this.ForceUpdateButton.Location = new System.Drawing.Point(15, 84);
@@ -718,6 +713,12 @@ namespace RBX_Alt_Manager.Forms
             this.ForceUpdateButton.Text = "Force Update";
             this.ForceUpdateButton.UseVisualStyleBackColor = true;
             this.ForceUpdateButton.Click += new System.EventHandler(this.ForceUpdateButton_Click);
+            // 
+            // CustomClientSettingsDialog
+            // 
+            this.CustomClientSettingsDialog.DefaultExt = "json";
+            this.CustomClientSettingsDialog.FileName = "ClientAppSettings.json";
+            this.CustomClientSettingsDialog.Filter = "Json Files|*.json|All Files|*.*";
             // 
             // SettingsForm
             // 
