@@ -274,19 +274,19 @@ namespace RBX_Alt_Manager
             this.copyRbxplayerLinkToolStripMenuItem,
             this.copyAppLinkToolStripMenuItem});
             this.AccountsStrip.Name = "contextMenuStrip1";
-            this.AccountsStrip.Size = new System.Drawing.Size(209, 290);
+            this.AccountsStrip.Size = new System.Drawing.Size(210, 290);
             // 
             // addAccountsToolStripMenuItem
             // 
             this.addAccountsToolStripMenuItem.Name = "addAccountsToolStripMenuItem";
-            this.addAccountsToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.addAccountsToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.addAccountsToolStripMenuItem.Text = "Add Account";
             this.addAccountsToolStripMenuItem.Click += new System.EventHandler(this.addAccountsToolStripMenuItem_Click);
             // 
             // removeAccountToolStripMenuItem
             // 
             this.removeAccountToolStripMenuItem.Name = "removeAccountToolStripMenuItem";
-            this.removeAccountToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.removeAccountToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.removeAccountToolStripMenuItem.Text = "Remove Account";
             this.removeAccountToolStripMenuItem.Click += new System.EventHandler(this.removeAccountToolStripMenuItem_Click);
             // 
@@ -299,7 +299,7 @@ namespace RBX_Alt_Manager
             this.copyProfileToolStripMenuItem,
             this.copyUserIdToolStripMenuItem});
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.copyToolStripMenuItem.Text = "Copy";
             // 
             // copyUsernameToolStripMenuItem
@@ -340,14 +340,14 @@ namespace RBX_Alt_Manager
             // sortAlphabeticallyToolStripMenuItem
             // 
             this.sortAlphabeticallyToolStripMenuItem.Name = "sortAlphabeticallyToolStripMenuItem";
-            this.sortAlphabeticallyToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.sortAlphabeticallyToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.sortAlphabeticallyToolStripMenuItem.Text = "Sort Alphabetically";
             this.sortAlphabeticallyToolStripMenuItem.Click += new System.EventHandler(this.sortAlphabeticallyToolStripMenuItem_Click);
             // 
             // quickLogInToolStripMenuItem
             // 
             this.quickLogInToolStripMenuItem.Name = "quickLogInToolStripMenuItem";
-            this.quickLogInToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.quickLogInToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.quickLogInToolStripMenuItem.Text = "Quick Log In";
             this.quickLogInToolStripMenuItem.Click += new System.EventHandler(this.quickLogInToolStripMenuItem_Click);
             // 
@@ -358,27 +358,27 @@ namespace RBX_Alt_Manager
             this.moveToToolStripMenuItem,
             this.copyGroupToolStripMenuItem});
             this.moveGroupUpToolStripMenuItem.Name = "moveGroupUpToolStripMenuItem";
-            this.moveGroupUpToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.moveGroupUpToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.moveGroupUpToolStripMenuItem.Text = "Groups";
             // 
             // toggleToolStripMenuItem
             // 
             this.toggleToolStripMenuItem.Name = "toggleToolStripMenuItem";
-            this.toggleToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.toggleToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.toggleToolStripMenuItem.Text = "Toggle";
             this.toggleToolStripMenuItem.Click += new System.EventHandler(this.toggleToolStripMenuItem_Click);
             // 
             // moveToToolStripMenuItem
             // 
             this.moveToToolStripMenuItem.Name = "moveToToolStripMenuItem";
-            this.moveToToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.moveToToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.moveToToolStripMenuItem.Text = "Move Account To";
             this.moveToToolStripMenuItem.Click += new System.EventHandler(this.moveToToolStripMenuItem_Click);
             // 
             // copyGroupToolStripMenuItem
             // 
             this.copyGroupToolStripMenuItem.Name = "copyGroupToolStripMenuItem";
-            this.copyGroupToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.copyGroupToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.copyGroupToolStripMenuItem.Text = "Copy Group";
             this.copyGroupToolStripMenuItem.Click += new System.EventHandler(this.copyGroupToolStripMenuItem_Click);
             // 
@@ -388,7 +388,7 @@ namespace RBX_Alt_Manager
             this.groupsToolStripMenuItem,
             this.infoToolStripMenuItem1});
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.infoToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.infoToolStripMenuItem.Text = "Help";
             // 
             // groupsToolStripMenuItem
@@ -408,42 +408,42 @@ namespace RBX_Alt_Manager
             // viewFieldsToolStripMenuItem
             // 
             this.viewFieldsToolStripMenuItem.Name = "viewFieldsToolStripMenuItem";
-            this.viewFieldsToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.viewFieldsToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.viewFieldsToolStripMenuItem.Text = "View Fields";
             this.viewFieldsToolStripMenuItem.Click += new System.EventHandler(this.viewFieldsToolStripMenuItem_Click);
             // 
             // ShowDetailsToolStripMenuItem
             // 
             this.ShowDetailsToolStripMenuItem.Name = "ShowDetailsToolStripMenuItem";
-            this.ShowDetailsToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.ShowDetailsToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.ShowDetailsToolStripMenuItem.Text = "Dump Details";
             this.ShowDetailsToolStripMenuItem.Click += new System.EventHandler(this.ShowDetailsToolStripMenuItem_Click);
             // 
             // getAuthenticationTicketToolStripMenuItem
             // 
             this.getAuthenticationTicketToolStripMenuItem.Name = "getAuthenticationTicketToolStripMenuItem";
-            this.getAuthenticationTicketToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.getAuthenticationTicketToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.getAuthenticationTicketToolStripMenuItem.Text = "Get Authentication Ticket";
             this.getAuthenticationTicketToolStripMenuItem.Click += new System.EventHandler(this.getAuthenticationTicketToolStripMenuItem_Click);
             // 
             // copySecurityTokenToolStripMenuItem
             // 
             this.copySecurityTokenToolStripMenuItem.Name = "copySecurityTokenToolStripMenuItem";
-            this.copySecurityTokenToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.copySecurityTokenToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.copySecurityTokenToolStripMenuItem.Text = "Copy Security Token";
             this.copySecurityTokenToolStripMenuItem.Click += new System.EventHandler(this.copySecurityTokenToolStripMenuItem_Click);
             // 
             // copyRbxplayerLinkToolStripMenuItem
             // 
             this.copyRbxplayerLinkToolStripMenuItem.Name = "copyRbxplayerLinkToolStripMenuItem";
-            this.copyRbxplayerLinkToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.copyRbxplayerLinkToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.copyRbxplayerLinkToolStripMenuItem.Text = "Copy rbx-player Link";
             this.copyRbxplayerLinkToolStripMenuItem.Click += new System.EventHandler(this.copyRbxplayerLinkToolStripMenuItem_Click);
             // 
             // copyAppLinkToolStripMenuItem
             // 
             this.copyAppLinkToolStripMenuItem.Name = "copyAppLinkToolStripMenuItem";
-            this.copyAppLinkToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.copyAppLinkToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.copyAppLinkToolStripMenuItem.Text = "Copy App Link";
             this.copyAppLinkToolStripMenuItem.Click += new System.EventHandler(this.copyAppLinkToolStripMenuItem_Click);
             // 
