@@ -69,6 +69,8 @@ namespace RBX_Alt_Manager
             this.copySecurityTokenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyRbxplayerLinkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyAppLinkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addFriendsOneAnotherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.HideUsernamesCheckbox = new System.Windows.Forms.CheckBox();
             this.BrowserButton = new System.Windows.Forms.Button();
             this.ArgumentsB = new System.Windows.Forms.Button();
@@ -272,9 +274,10 @@ namespace RBX_Alt_Manager
             this.getAuthenticationTicketToolStripMenuItem,
             this.copySecurityTokenToolStripMenuItem,
             this.copyRbxplayerLinkToolStripMenuItem,
-            this.copyAppLinkToolStripMenuItem});
+            this.copyAppLinkToolStripMenuItem,
+            this.actionsToolStripMenuItem});
             this.AccountsStrip.Name = "contextMenuStrip1";
-            this.AccountsStrip.Size = new System.Drawing.Size(210, 290);
+            this.AccountsStrip.Size = new System.Drawing.Size(210, 334);
             // 
             // addAccountsToolStripMenuItem
             // 
@@ -446,6 +449,21 @@ namespace RBX_Alt_Manager
             this.copyAppLinkToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.copyAppLinkToolStripMenuItem.Text = "Copy App Link";
             this.copyAppLinkToolStripMenuItem.Click += new System.EventHandler(this.copyAppLinkToolStripMenuItem_Click);
+            // 
+            // actionsToolStripMenuItem
+            // 
+            this.actionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addFriendsOneAnotherToolStripMenuItem});
+            this.actionsToolStripMenuItem.Name = "actionsToolStripMenuItem";
+            this.actionsToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.actionsToolStripMenuItem.Text = "Actions";
+            // 
+            // addFriendsOneAnotherToolStripMenuItem
+            // 
+            this.addFriendsOneAnotherToolStripMenuItem.Name = "addFriendsOneAnotherToolStripMenuItem";
+            this.addFriendsOneAnotherToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.addFriendsOneAnotherToolStripMenuItem.Text = "Add friends one another";
+            this.addFriendsOneAnotherToolStripMenuItem.Click += new System.EventHandler(this.addFriendsOneAnotherToolStripMenuItem_Click);
             // 
             // HideUsernamesCheckbox
             // 
@@ -1201,5 +1219,7 @@ namespace RBX_Alt_Manager
         private System.Windows.Forms.ToolStripMenuItem customURLJSToolStripMenuItem;
         private System.Windows.Forms.ProgressBar DownloadProgressBar;
         private System.Windows.Forms.Label DLChromiumLabel;
+        private System.Windows.Forms.ToolStripMenuItem actionsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addFriendsOneAnotherToolStripMenuItem;
     }
 }

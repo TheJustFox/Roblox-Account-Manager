@@ -602,8 +602,8 @@ namespace RBX_Alt_Manager {
             EconClient = new RestClient("https://economy.roblox.com/");
             AccountClient = new RestClient("https://accountsettings.roblox.com/");
             GameJoinClient = new RestClient(new RestClientOptions("https://gamejoin.roblox.com/") { UserAgent = "Roblox/WinInet" });
-            UsersClient = new RestClient("https://users.roblox.com");
-            FriendsClient = new RestClient("https://friends.roblox.com");
+            UsersClient = new RestClient("https://users.roblox.com/");
+            FriendsClient = new RestClient(new RestClientOptions("https://friends.roblox.com/") { UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" });
             Web13Client = new RestClient("https://web.roblox.com/");
 
             if (File.Exists(SaveFilePath))
@@ -1960,6 +1960,25 @@ namespace RBX_Alt_Manager {
 
         private void PlaceID_Click(object sender, EventArgs e) {
             PlaceID.SelectAll(); // Allows quick replacing of the PlaceID with a click and ctrl-v.
+        }
+
+        private void addFriendsOneAnotherToolStripMenuItem_Click(object sender, EventArgs e) {
+            HashSet<(string, string)> AcceptedRequests = new HashSet<(string, string)>();
+            var Accounts = AccountsView.SelectedObjects;
+            foreach (Account Account in Accounts) {
+                foreach (Account Account2 in Accounts) {
+                    if (Account == Account2) continue;
+
+                    if (AcceptedRequests.Contains((Account.Username, Account2.Username))) continue;
+                    if (AcceptedRequests.Contains((Account2.Username, Account.Username))) continue;
+
+                    if (Account.SendFriendRequest(Account2.Username)) {
+                        Account2.AcceptFriendRequest(Account.Username);
+                        AcceptedRequests.Add((Account.Username, Account2.Username));
+                    }
+                }
+            }
+            MessageBox.Show($"Friended {AcceptedRequests.Count} account(s) out of {Accounts.Count}");
         }
     }
 }
