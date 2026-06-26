@@ -87,7 +87,6 @@ namespace RBX_Alt_Manager
             this.ShuffleIcon = new System.Windows.Forms.PictureBox();
             this.DefaultEncryptionButton = new System.Windows.Forms.Button();
             this.PasswordEncryptionButton = new System.Windows.Forms.Button();
-            this.JobID = new RBX_Alt_Manager.Classes.BorderedTextBox();
             this.DonateButton = new System.Windows.Forms.Button();
             this.AccountsView = new BrightIdeasSoftware.ObjectListView();
             this.Username = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
@@ -119,6 +118,7 @@ namespace RBX_Alt_Manager
             this.UserID = new RBX_Alt_Manager.Classes.BorderedTextBox();
             this.Alias = new RBX_Alt_Manager.Classes.BorderedTextBox();
             this.DescriptionBox = new RBX_Alt_Manager.Classes.BorderedRichTextBox();
+            this.JobID = new RBX_Alt_Manager.Classes.BorderedTextBox();
             this.PlaceID = new RBX_Alt_Manager.Classes.BorderedTextBox();
             this.AddAccountsStrip.SuspendLayout();
             this.AccountsStrip.SuspendLayout();
@@ -277,7 +277,7 @@ namespace RBX_Alt_Manager
             this.copyAppLinkToolStripMenuItem,
             this.actionsToolStripMenuItem});
             this.AccountsStrip.Name = "contextMenuStrip1";
-            this.AccountsStrip.Size = new System.Drawing.Size(210, 334);
+            this.AccountsStrip.Size = new System.Drawing.Size(210, 312);
             // 
             // addAccountsToolStripMenuItem
             // 
@@ -637,18 +637,6 @@ namespace RBX_Alt_Manager
         "tored securely");
             this.PasswordEncryptionButton.UseVisualStyleBackColor = true;
             this.PasswordEncryptionButton.Click += new System.EventHandler(this.PasswordEncryptionButton_Click);
-            // 
-            // JobID
-            // 
-            this.JobID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.JobID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))));
-            this.JobID.Location = new System.Drawing.Point(602, 43);
-            this.JobID.Name = "JobID";
-            this.JobID.Size = new System.Drawing.Size(143, 20);
-            this.JobID.TabIndex = 2;
-            this.SaveTooltip.SetToolTip(this.JobID, "Job ID is a unique ID assigned to every roblox server.\r\nYou may also put a Privat" +
-        "e Server link in this box to join it.");
-            this.JobID.Click += new System.EventHandler(this.JobID_Click);
             // 
             // DonateButton
             // 
@@ -1054,6 +1042,18 @@ namespace RBX_Alt_Manager
             this.DescriptionBox.Size = new System.Drawing.Size(268, 80);
             this.DescriptionBox.TabIndex = 11;
             this.DescriptionBox.Text = "Description";
+            // 
+            // JobID
+            // 
+            this.JobID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.JobID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))));
+            this.JobID.Location = new System.Drawing.Point(602, 43);
+            this.JobID.Name = "JobID";
+            this.JobID.Size = new System.Drawing.Size(143, 20);
+            this.JobID.TabIndex = 2;
+            this.SaveTooltip.SetToolTip(this.JobID, "Job ID is a unique ID assigned to every roblox server.\r\nYou may also put a Privat" +
+        "e Server link in this box to join it.");
+            this.JobID.Click += new System.EventHandler(this.JobID_Click);
             // 
             // PlaceID
             // 
